@@ -12,17 +12,21 @@ h1 {
 	font-size: 30px;
 	text-align: center;
 }
+/* .footer {
+	justify-content: center;
+	align-items: center;
+
+} */
 
 /* aligni=center ar jonno .p use korci */
 p {
 	font-family: "Lato", sans-serif;
 	font-size: 20px;
-}
-/* aligni=center ar jonno .h1 use korci */
-.p {
-	font-family: "Lato", sans-serif;
-	font-size: 15px;
 	text-align: center;
+}
+
+.didar {
+	text-align: ;
 }
 /* span tag ar  text-color change jonno */
 .text-color {
@@ -40,9 +44,8 @@ p {
 }
 /* anchor tag use  */
 a {
-	background-color: orange;
+	background-color: tomato;
 	padding: 15px 40px;
-	margin-top: 50px;
 	text-decoration: none;
 	border-radius: 10px;
 	color: white;
@@ -51,6 +54,7 @@ a {
 
 p {
 	text-align: justify;
+	margin-bottom: 50px;
 }
 
 .half-side img {
@@ -103,20 +107,8 @@ p {
 	height: 5%;
 	box-shadow: 10px 10px 25px rgb(139, 137, 137);
 }
-
-input {
-	padding: 2%;
-	width: 100%;
-	margin-bottom: 15px;
-	border: none;
-	border-bottom: 2px solid gray;
-}
-textarea {
-	border: none;
-	border-top: 2px solid gray;
-	border-bottom: 2px solid gray;
-}
 footer {
 	background-color: rgba(8, 8, 66, 0.699);
 	padding: 15px 0px;
+	text-align: center;
 }
