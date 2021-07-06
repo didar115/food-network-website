@@ -40,12 +40,12 @@ p {
 }
 /* anchor tag use  */
 a {
-	background-color: tomato;
+	background-image: linear-gradient(tomato, orange);
 	padding: 15px 40px;
 	text-decoration: none;
 	border-radius: 10px;
 	color: white;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 .half-side img {
