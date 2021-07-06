@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: "Poppins", sans-serif;
+	font-size: 60px;
+}
+/* aligni=center ar jonno .h1 use korci */
+.h1 {
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* aligni=center ar jonno .p use korci */
+p {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+}
+/* aligni=center ar jonno .h1 use korci */
+.p {
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+/* span tag ar  text-color change jonno */
+.text-color {
+	color: tomato;
+}
+/* display flex */
+.dis-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* display 50% diveded  */
+.half-side {
+	width: 50%;
+	margin: 5%;
+}
+/* a tag a ak sathe color ar jonno .btn use  */
+a {
+	background-color: orange;
+	padding: 15px 40px;
+	margin-top: 50px;
+	text-decoration: none;
+	border-radius: 10px;
+	color: white;
+	font-weight: 400;
+}
+/* btn1 for form TAG */
+.btn1 {
+	font-weight: 700;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 30px;
+	width: 20%;
+	background-image: linear-gradient(orange, tomato);
+}
+/* a tag a .btn class ar nice margin add ar jonno .mt use */
+.mt {
+	margin-bottom: 30%;
+}
+
+.half-side img {
+	width: 100%;
+}
+/* img k coto korar jonno use .short-img */
+.short-img {
+	height: 450px;
+	width: 60%;
+}
+.back-img {
+	background-image: url(./images/shapes/7.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center;
+}
+
+.card {
+	width: 25%;
+	height: 400px;
+	padding: 2%;
+	margin: 3% 5%;
+	border-radius: 5%;
+	box-shadow: 10px 10px 25px rgb(124, 123, 123);
+}
+.card img {
+	height: 200px;
+	width: 100%;
+}
+.card h3 {
+	font-size: 30px;
+}
+.card p {
+	text-align: justify;
+}
+/* Transpatent add */
+.tf {
+	transition: 0.6s;
+}
+.tf:hover {
+	transform: scale(1.045);
+}
+/* class div */
+.div {
+	margin: 5% 5%;
+}
+.div-item {
+	justify-content: space-around;
+	width: 100%;
+	height: 5%;
+	box-shadow: 10px 10px 25px rgb(139, 137, 137);
+}
+
+input {
+	padding: 2%;
+	width: 100%;
+	margin-bottom: 15px;
+	border: none;
+	border-bottom: 2px solid gray;
+}
+textarea {
+	border: none;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+footer {
+	background-color: rgba(8, 8, 66, 0.699);
+	padding: 15px 0px;
+}
